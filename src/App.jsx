@@ -4,10 +4,12 @@ import SignUpForm from './components/SignUpForm'
 import './App.css'
 
 export default function App() {
-  return (
+  const [token, setToken] = useState(null);
+  return(
     <>
-      <Authenticate />
-      <SignUpForm />
+    <Authenticate token={token} setToken={setToken}/>
+    <SignUpForm token={token} setToken={setToken}/>
     </>
   );
+
 }
