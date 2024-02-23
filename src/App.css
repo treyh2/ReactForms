@@ -40,3 +40,52 @@
 .read-the-docs {
   color: #888;
 }
+
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #6e489069;
+  border-radius: 0%;
+  width: 280px;
+  height: 190px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 1.3rem;
+  font-family: sans-serf;
+  margin-left: 10%;
+
+}
+
+button {
+  box-shadow: 2px 2px 5px black;
+}
+
+form>button {
+  width: 110px;
+  height: auto;
+  box-shadow: 2px 2px 5px black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: .9rem;
+
+}
+
+body {
+  background: linear-gradient(lightgreen, rgb(174, 174, 212));
+}
+
+input{
+  font-size: 1rem;
+}
+
+h2{
+  font-family: sans-serf;
+}
+
+h1{
+  font-family: 'Sprite Graffiti',sans-serf;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
